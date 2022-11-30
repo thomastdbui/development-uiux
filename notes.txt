@@ -1,0 +1,65 @@
+theme: 
+
+pitching grips: 
+- filter: breaking ball, movement, run, etc. 
+- sort: speed, movement
+- my bag / arsenal
+
+
+jazz:
+- filter: bossa nova, relaxing
+- sort: popularity
+- favorites list
+
+
+pizza:
+
+
+cuts of steak:
+- filter: bone-in, bone-out
+- sort: price (high - to - low), general USDA rank, leanest, fattest
+    - tenderness, leanness, flavor
+- stomach's desires (cart)
+
+
+food at brown: 
+- filter: andrews, ratty, v-dub, ivy room, blue room, jos
+    - meals, drinks
+    - north campus, south campus
+    - breakfast, lunch, dinner
+- sort: fillingness level, satisfaction level, meals, drinks
+- favorites list
+    - spicy with, pizza (andrews), pizza (ratty), steak bomb (ivy), ivy room smoothie, coffee (blue room), coffee (erc),
+    asian chicken wings (ratty), burrito bowl, yogurt bowl, sandwich (blue room), pho night fridays, ratty chicken, vdub waffles
+    ivy sushi, the met, omlet (ratty)
+
+
+what to do in your freetime: 
+- filter: resting, active 
+- sort: time-consumingness level, active level, restfulness level
+    - volleyball, spikeball, sleeping, watching k-drama, basketball, reading, 
+    playing smash, tiktok scroll, youtube spree, singing, playing piano, play tetris
+
+
+
+dumb jokes
+- filter: 
+    - verbal, physical, all
+    - harmless, crude, all
+- sort: self-fulfillment, anger from other people
+
+- "urmom", "hi ___, i'm dad," tapping their shoulder, the ok sign under the belt, poking their cheek when they turn,
+something on your shirt, untying someone's shoelace, making fart noises, saying very descirptive words at wrong times (FASCINATING), 
+the Penis game, take a super close 0.5 shot of someone, make them fall by pushing their knee
+
+
+poking someone in the butt
+
+
+
+api for movies
+
+
+
+
+

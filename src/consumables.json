@@ -1,0 +1,135 @@
+[
+    
+    {
+        "name": "Andrew's Pizza",
+        "location": "south",
+        "type": "food",
+        "time": "linner",
+        "satisfaction": 6.5,
+        "image": "apizza.jpeg"
+    },
+    {
+        "name": "Ratty Pizza",
+        "location": "both",
+        "type": "food",
+        "time": "linner",
+        "satisfaction": 6.5,
+        "image": "rpizza.jpeg"
+    },
+    {
+        "name": "Ivy Steak Bomb",
+        "location": "both",
+        "type": "food",
+        "time": "linner",
+        "satisfaction": 7,
+        "image": "steakbomb.jpeg"
+    },
+    {
+        "name": "Ivy Smoothie",
+        "location": "both",
+        "type": "drink",
+        "time": "linner",
+        "satisfaction": 8.5,
+        "image": "smoothie.jpeg"
+    },
+    {
+        "name": "Blue Room Coffee",
+        "location": "both",
+        "type": "drink",
+        "time": "brunch",
+        "satisfaction": 8,
+        "image": "brcoffee.jpeg"
+    },
+    {
+        "name": "ERC Coffee",
+        "location": "south",
+        "type": "drink",
+        "time": "dinner",
+        "satisfaction": 8,
+        "image": "erccoffee.jpeg"
+    },
+    {
+        "name": "Ratty Asian Chicken Wings",
+        "location": "both",
+        "type": "food",
+        "time": "linner",
+        "satisfaction": 7.5,
+        "image": "rattywings.jpeg"
+    },
+    {
+        "name": "Andrews Burrito Bowl",
+        "location": "north",
+        "type": "food",
+        "time": "brunch",
+        "satisfaction": 10,
+        "image": "burritobowl.jpeg"
+    },
+    {
+        "name": "Andrews Yogurt Bowl",
+        "location": "north",
+        "type": "food",
+        "time": "brunch",
+        "satisfaction": 10,
+        "image": "yogurtbowl.jpeg"
+    },
+    {
+        "name": "Blue Room Sandwich",
+        "location": "both",
+        "type": "food",
+        "time": "brunch",
+        "satisfaction": 7.5,
+        "image": "brsandwich.jpeg"
+    },
+    {
+        "name": "Pho Fridays",
+        "location": "north",
+        "type": "food",
+        "time": "dinner",
+        "satisfaction": 9,
+        "image": "pho.jpeg"
+    },
+    {
+        "name": "Ratty Chicken",
+        "location": "both",
+        "type": "food",
+        "time": "linner",
+        "satisfaction": 5,
+        "image": "rattychicken.jpeg"
+    },
+    {
+        "name": "Ivy Room Sushi",
+        "location": "both",
+        "type": "food",
+        "time": "dinner",
+        "satisfaction": 8.5,
+        "image": "sushi.jpeg"
+    },
+    {
+        "name": "V-Dub Waffles",
+        "location": "north",
+        "type": "food",
+        "time": "all",
+        "satisfaction": 8,
+        "image": "waffles.jpeg"
+    },
+    {
+        "name": "Ratty Omelette",
+        "location": "both",
+        "type": "food",
+        "time": "breakfast",
+        "satisfaction": 8,
+        "image": "omelette.jpeg"
+    },
+    {
+        "name": "The Met",
+        "location": "both",
+        "type": "food",
+        "time": "all",
+        "satisfaction": 100,
+        "image": "met.jpeg"
+    }
+
+    
+    
+   
+]
