@@ -62,7 +62,6 @@ function App(props) {
 
   function setTypeFilter(eventKey) {
     setType(eventKey);
-
   }
 
 
@@ -72,7 +71,6 @@ function App(props) {
 
   function setSort(eventKey) {
     setSortOrder(eventKey);
-    console.log(eventKey);
   }
   
   const sortedData = consumable.sort((a,b) => {

@@ -17,7 +17,7 @@ export default function Consumable(props) {
         
         <Card style={{ width: '18rem' }}>
             
-            <img id="props-image" src={"../assets/" + props.image}></img>
+            <img id="props-image" src={"/assets/" + props.image}></img>
 
             <Card.Body>
                 <Card.Title>{props.name}</Card.Title>

@@ -23,7 +23,7 @@ export default function Sidebar(props)  {
             Filter by Location:
           </div>
           <Navbar>
-            <Nav onSelect={props.setLocationFilter} className='nav-filter'  >
+            <Nav onSelect={props.setLocationFilter}  variant="pills" justify className='nav-filter'  >
               <Nav.Item className="filter-pill"><Nav.Link eventKey="All">All Locations</Nav.Link></Nav.Item>
               <Nav.Item className="filter-pill"><Nav.Link eventKey="north">North Campus</Nav.Link></Nav.Item>
               <Nav.Item className="filter-pill"><Nav.Link eventKey="middle">Middle Campus</Nav.Link></Nav.Item>
@@ -36,7 +36,7 @@ export default function Sidebar(props)  {
             Filter by Type:
           </div>
           <Navbar>
-            <Nav  className='nav-filter'   onSelect={props.setTypeFilter}>
+            <Nav  className='nav-filter'  variant="pills" justify onSelect={props.setTypeFilter}>
               <Nav.Item className="filter-pill"><Nav.Link eventKey="All">All Types</Nav.Link></Nav.Item>
               <Nav.Item className="filter-pill"><Nav.Link eventKey="food">Food</Nav.Link></Nav.Item>
               <Nav.Item className="filter-pill"><Nav.Link eventKey="drink">Drink</Nav.Link></Nav.Item>
@@ -49,8 +49,8 @@ export default function Sidebar(props)  {
             Sort by:
           </div>
           <Navbar>
-            <Nav  className='nav-filter'  onSelect={props.setSort}>
-              <Nav.Item className="filter-pill"><Nav.Link eventKey="ascending">High to Low</Nav.Link></Nav.Item>
+            <Nav  className='nav-filter'  variant="pills" justify onSelect={props.setSort}>
+              <Nav.Item className="filter-pill"><Nav.Link eventKey="ascending" >High to Low</Nav.Link></Nav.Item>
               <Nav.Item className="filter-pill"><Nav.Link eventKey="descending">Low to High</Nav.Link></Nav.Item>
             </Nav>
           </Navbar>
