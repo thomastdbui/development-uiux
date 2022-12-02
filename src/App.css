@@ -43,6 +43,7 @@
   flex-flow: row wrap;
   justify-content: space-evenly;
   row-gap: 5rem;
+  padding: 3.5vh;
 }
 
 #props-image {
@@ -107,4 +108,8 @@
 .consum-button {
   padding: 0.5vh;
 
+}
+
+.title-header {
+  padding-top: 5vh;
 }

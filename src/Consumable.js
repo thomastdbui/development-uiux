@@ -55,11 +55,7 @@ export default function Consumable(props) {
                 
                 <div className='consum-button'>
                     <Button variant="outline-danger"
-                        onClick={() => {
-
-
-
-                            
+                        onClick={() => {                            
 
                             props.favorites.forEach(element => {
                                 if (element === props.name) {
