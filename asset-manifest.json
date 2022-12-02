@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/development-uiux/static/css/main.a30ab0af.css",
-    "main.js": "/development-uiux/static/js/main.84bbb720.js",
+    "main.css": "/development-uiux/static/css/main.d56c450b.css",
+    "main.js": "/development-uiux/static/js/main.ae960974.js",
     "static/media/fa-solid-900.svg": "/development-uiux/static/media/fa-solid-900.7a8b4f130182d19a2d7c.svg",
     "static/media/fa-brands-400.svg": "/development-uiux/static/media/fa-brands-400.2f517e09eb2ca6650ff5.svg",
     "static/media/fa-solid-900.eot": "/development-uiux/static/media/fa-solid-900.9bbb245e67a133f6e486.eot",
@@ -18,11 +18,11 @@
     "static/media/fa-regular-400.woff": "/development-uiux/static/media/fa-regular-400.bb58e57c48a3e911f15f.woff",
     "static/media/fa-regular-400.woff2": "/development-uiux/static/media/fa-regular-400.7a3337626410ca2f4071.woff2",
     "index.html": "/development-uiux/index.html",
-    "main.a30ab0af.css.map": "/development-uiux/static/css/main.a30ab0af.css.map",
-    "main.84bbb720.js.map": "/development-uiux/static/js/main.84bbb720.js.map"
+    "main.d56c450b.css.map": "/development-uiux/static/css/main.d56c450b.css.map",
+    "main.ae960974.js.map": "/development-uiux/static/js/main.ae960974.js.map"
   },
   "entrypoints": [
-    "static/css/main.a30ab0af.css",
-    "static/js/main.84bbb720.js"
+    "static/css/main.d56c450b.css",
+    "static/js/main.ae960974.js"
   ]
 }
