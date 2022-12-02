@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -55,8 +56,46 @@
   /* justify-content: space-evenly; */
 }
 
-#sidebar {
-  /* position: -webkit-sticky; */
+/* .sidebar {
+
+  min-height: 100vh;
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
+} */
+
+
+/* .sidebar {
+  border-radius: 800px; 
+  padding: 20px 5px;
+} */
+
+.nav-filter {
+  flex-direction: column!important;
+}
+
+.navbar {
+  flex-direction: column!important;
+}
+
+.cat-header {
+  font-size:larger;
+  font-weight: bold;
+}
+
+.category {
+  padding: 3vh;
+  display:flex;
+  flex-direction: column;
+}
+
+.fav-list {
+  padding: 3vh;
+}
+.fav-total {
+  padding: 1vh;
+}
+
+.fav-item {
+  padding: 0.5vh;
 }

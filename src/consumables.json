@@ -57,6 +57,30 @@
         "image": "erccoffee.jpeg"
     },
     {
+        "name": "Jo's Yellow Powerade",
+        "location": "south",
+        "type": "drink",
+        "time": "dinner",
+        "satisfaction": 8,
+        "image": "powerade.jpeg"
+    },
+    {
+        "name": "Jo's Mozzarella Sticks",
+        "location": "south",
+        "type": "food",
+        "time": "dinner",
+        "satisfaction": 9,
+        "image": "mozzsticks.jpeg"
+    },
+    {
+        "name": "Andrew's Acai Blueberry Pomegranate VitaminWater",
+        "location": "north",
+        "type": "drink",
+        "time": "linner",
+        "satisfaction": 8,
+        "image": "vitaminwater.jpeg"
+    },
+    {
         "name": "Ratty Asian Chicken Wings",
         "location": "middle",
         "type": "food",
@@ -109,7 +133,7 @@
         "location": "middle",
         "type": "food",
         "time": "dinner",
-        "satisfaction": 8.5,
+        "satisfaction": 7,
         "image": "sushi.jpeg"
     },
     {

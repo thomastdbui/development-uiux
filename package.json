@@ -10,6 +10,7 @@
     "react-bootstrap": "^2.6.0",
     "react-bootstrap-sidebar-menu": "^2.0.3",
     "react-dom": "^18.2.0",
+    "react-pro-sidebar": "^1.0.0-alpha.9",
     "react-scripts": "5.0.1"
   },
   "scripts": {
