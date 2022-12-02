@@ -293,13 +293,24 @@ function App(props) {
             <div className='fav-total'>
               Favs' Total Satisfaction: {total}
             </div>
+            {/* <div className='fav-button'>
+              <Button variant="outline-secondary" onClick={() =>
+                  {
+                    
+                  }
+              }>Remove Previous</Button>
 
-            <Button variant="secondary" onClick={() =>
-                {
-                    setFavorites([])
-                    setTotal(0)
-                }
-            }>Clear Favorites List</Button>
+            </div> */}
+
+            <div className='fav-button'>
+              <Button variant="outline-secondary" onClick={() =>
+                  {
+                      setFavorites([])
+                      setTotal(0)
+                  }
+              }>Clear Favorites List</Button>
+            </div>
+
           </div>
         </div>
       );

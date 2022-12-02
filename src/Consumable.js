@@ -2,6 +2,7 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import ListGroup from 'react-bootstrap/ListGroup';
 import Image from 'react-bootstrap/Image';
+import { ToggleButton } from 'react-bootstrap';
 import './App.css';
 import { useState } from "react";
 // import img from props.image;
@@ -9,10 +10,11 @@ import { useState } from "react";
 
 export default function Consumable(props) {
 
-    // const [canAdd, setAdd] = useState(true);
+    const [checked, setChecked] = useState(false);
 
+    
     return (
-
+        
         <Card style={{ width: '18rem' }}>
             
             <img id="props-image" src={"../assets/images/" + props.image}></img>
@@ -25,25 +27,55 @@ export default function Consumable(props) {
                     <ListGroup.Item>Consumable Type: {props.type}</ListGroup.Item>
                     <ListGroup.Item>Satisfaction Level: {props.satisfaction}</ListGroup.Item>
                 </ListGroup>
-                <Button variant="primary" 
-                    onClick={() => {
 
-                        const inFavs = false;
-                        props.favorites.forEach(element => {
-                            if (element === props.name) {
-                               inFavs = true;
+                
+
+                <div className='consum-button'>
+                    <Button variant="outline-primary" 
+                        onClick={() => {
+
+                            const inFavs = false;
+                            props.favorites.forEach(element => {
+                                if (element === props.name) {
+                                inFavs = true;
+                                }
+                            });
+
+                            if (!inFavs) {
+                                props.setTotal(props.total + props.satisfaction)
                             }
-                        });
 
-                        if (!inFavs) {
-                            props.setTotal(props.total + props.satisfaction)
-                        }
+                            const newFavs = [...new Set([...props.favorites, props.name])]
+                            props.setFavorites(newFavs)
+                        }}>
+                        Add to Favorites
+                    </Button>
+                </div>
 
-                        const newFavs = [...new Set([...props.favorites, props.name])]
-                        props.setFavorites(newFavs)
-                    }}>
-                    Add to Favorites
-                </Button>
+                
+                <div className='consum-button'>
+                    <Button variant="outline-danger"
+                        onClick={() => {
+
+
+
+                            
+
+                            props.favorites.forEach(element => {
+                                if (element === props.name) {
+                                    props.setTotal(props.total - props.satisfaction)
+                                }
+                            });
+                            
+                            const newFavs = props.favorites.filter(favorite => favorite != props.name)
+                            props.setFavorites(newFavs)
+                        }}
+                    >
+
+                    Remove from Favorites 
+
+                    </Button>
+                </div>
             </Card.Body>
         </Card>
 
